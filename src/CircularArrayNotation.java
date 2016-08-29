@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -19,7 +20,7 @@ public class CircularArrayNotation {
         int startIndex = arrayLen - (numArrayRotations % arrayLen);
         for(int i=0; i<numQueries;i++) {
             int query = input.nextInt();
-            System.out.println(array[(startIndex+query)%arrayLen]);
+            System.out.println(array[(startIndex + query) % arrayLen]);
         }
     }
 }
