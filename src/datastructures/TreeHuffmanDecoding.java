@@ -1,3 +1,5 @@
+package datastructures;
+
 /**
  * Created by robert.smallwood on 9/6/16.
  */
@@ -7,7 +9,7 @@ public class TreeHuffmanDecoding {
 
     }
 
-    void decode(String S, Node root) {
+/*    void decode(String S, Node root) {
         int index = 0;
         Node currentNode = root;
         while(index < S.length()) {
@@ -25,5 +27,5 @@ public class TreeHuffmanDecoding {
             }
         }
         System.out.print(currentNode.data);
-    }
+    }*/
 }

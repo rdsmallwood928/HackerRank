@@ -1,3 +1,5 @@
+package datastructures;
+
 /**
  * Created by robert.smallwood on 9/6/16.
  */
@@ -7,7 +9,7 @@ public class TreeBSTInsertion {
 
     }
 
-    static Node Insert(Node root,int value)
+/*    static Node Insert(Node root,int value)
     {
         if(root == null) {
             root = new Node();
@@ -34,6 +36,6 @@ public class TreeBSTInsertion {
             }
         }
         return root;
-    }
+    }*/
 
 }
